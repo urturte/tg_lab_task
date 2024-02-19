@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+  background: white;
+  padding: 10px;
+}
+.search {
+    border: 1px rgb(198, 175, 230) solid;
+    border-radius: 25px;
+    height: 20px;
+    padding: 5px;
+    width: 100%;
+    background: white;
+}
+.search:hover {
+    background-color: rgb(198, 175, 230);
+    color: black;
+    transition: 0.3s;
+}

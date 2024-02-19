@@ -1,0 +1,32 @@
+.itemBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;
+    gap: 5px;
+    padding: 10px;
+  }
+.title {
+    padding: 0;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 0;
+}
+.description{
+    font-size: 11px;
+    font-weight: 100;
+    color: rgb(19, 18, 18);
+    margin: 0;
+}
+.img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.itemBox:hover {
+    background-color: white;
+    transition: 0.3s;
+}

@@ -1,0 +1,8 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  margin: auto;
+  background: rgb(198, 175, 230);
+  min-height: 100vh;
+}
